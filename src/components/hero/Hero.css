@@ -1,0 +1,35 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  border: solid 0.1rem;
+  border-radius: 2rem;
+  padding: 0.2rem;
+}
+
+.sub-hero {
+  padding: 0.2rem;
+  display: flex;
+}
+
+.sub-hero .section-number {
+  border-radius: 50%;
+  border: solid 0.1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.sub-hero .line {
+  display: flex;
+  align-items: center;
+}
+
+.sub-hero hr {
+  /* border: none; */
+  border: 0.1rem solid #333;
+  height: 0.5rem;
+  width: 5rem;
+}
