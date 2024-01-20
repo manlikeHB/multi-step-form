@@ -2,7 +2,7 @@ import "./Hero.css";
 import SectionNumber from "./SectionNumber";
 import Line from "./Line";
 
-function Hero() {
+const Hero = () => {
   return (
     <div className="hero">
       <div className="sub-hero">
@@ -14,6 +14,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

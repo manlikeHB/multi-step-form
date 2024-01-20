@@ -1,4 +1,4 @@
-function Input(props) {
+const Input = (props) => {
   return (
     <input
       type={props.type}
@@ -9,6 +9,6 @@ function Input(props) {
       placeholder={props.holder}
     />
   );
-}
+};
 
 export default Input;

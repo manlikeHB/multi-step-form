@@ -3,7 +3,7 @@ import "./Container.css";
 import Hero from "../hero/Hero";
 import NextSection from "../next/NextSection";
 
-function Container() {
+const Container = () => {
   return (
     <div className="container">
       <Hero />
@@ -11,6 +11,6 @@ function Container() {
       <NextSection />
     </div>
   );
-}
+};
 
 export default Container;

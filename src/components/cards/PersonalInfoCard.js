@@ -1,7 +1,7 @@
 import "./Card.css";
 import InputField from "../input/InputField";
 
-function PersonalInfoCard() {
+const PersonalInfoCard = () => {
   return (
     <div className="card">
       <InputField
@@ -27,6 +27,6 @@ function PersonalInfoCard() {
       />
     </div>
   );
-}
+};
 
 export default PersonalInfoCard;

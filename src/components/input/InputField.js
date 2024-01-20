@@ -1,6 +1,6 @@
 import Input from "./Input";
 
-function InputField(props) {
+const InputField = (props) => {
   return (
     <div className="InputField">
       <label for={props.id}>{props.label}: </label>
@@ -15,6 +15,6 @@ function InputField(props) {
       />
     </div>
   );
-}
+};
 
 export default InputField;
