@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const Select = (props) => {
+  // State management for the Select field
   const [placeholder, setSelectedOption] = useState("Select Your State");
 
   const handleSelectChange = (event) => {

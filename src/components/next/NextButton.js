@@ -1,12 +1,15 @@
 import { useState } from "react";
 
 const NextButton = (props) => {
+  // State management on mouse over
   const [isMovedOver, setMovedOver] = useState(false);
 
+  // Handle mouse ouver event
   const handleMouseOver = () => {
     setMovedOver(true);
   };
 
+  // Handle mouse out event
   const handleMouseOut = () => {
     setMovedOver(false);
   };
@@ -20,6 +23,7 @@ const NextButton = (props) => {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
+      {/* When it gets to last page,change next tosubmit */}
       {props.currentPage === 3 ? "Submit" : props.dir}
     </button>
   );
