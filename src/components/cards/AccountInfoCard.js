@@ -1,12 +1,12 @@
-import InputField from "../input/InputField";
+import InputField from "./input/InputField";
 
-const AccountInfo = () => {
+const AccountInfoCard = () => {
   return (
     <div className="card">
       <InputField
         label="Username"
         type="text"
-        minlength="3"
+        min="3"
         required
         id="username"
         name="username"
@@ -15,7 +15,7 @@ const AccountInfo = () => {
       <InputField
         label="Password"
         type="password"
-        minlength="6"
+        min="6"
         required
         id="password"
         name="password"
@@ -33,4 +33,4 @@ const AccountInfo = () => {
   );
 };
 
-export default AccountInfo;
+export default AccountInfoCard;

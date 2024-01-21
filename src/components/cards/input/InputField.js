@@ -3,7 +3,7 @@ import Input from "./Input";
 const InputField = (props) => {
   return (
     <div className="InputField">
-      <label for={props.id}>{props.label}: </label>
+      <label htmlFor={props.id}>{props.label}: </label>
 
       <Input
         type={props.type}

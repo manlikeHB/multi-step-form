@@ -8,7 +8,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+:root {
+  --text-color: #e58e26;
+}
+
 body {
   margin: 0;
   background-color: rgb(243, 238, 238);
+  /* color: #e58e26; */
 }

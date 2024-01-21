@@ -3,8 +3,11 @@
   justify-content: space-between;
 }
 
-.next-button {
+.next-button,
+.prev-button {
   padding: 0.7rem 2rem;
   border-radius: 2rem;
   border: solid 0.1rem;
+  background-color: white;
+  color: var(--text-color);
 }

@@ -1,5 +1,5 @@
 import "./Card.css";
-import InputField from "../input/InputField";
+import InputField from "./input/InputField";
 
 const PersonalInfoCard = () => {
   return (
