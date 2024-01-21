@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Multi-Form Component Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This application is a multi-step form component test designed to guide users through a three-step process. The user interface is divided into three main sections: the Hero Section, the Page/Content Area, and the Button/Nav Area.
 
-In the project directory, you can run:
+### Hero Section
 
-### `npm start`
+- The Hero Section displays three numbers (1, 2, 3) representing the current step of the application.
+- The highlighted number indicates the active step, providing users with clear navigation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Page/Content Area
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The Page/Content Area is comprised of three parts, each corresponding to the steps in the Hero Section.
+- Input fields within each part are tracked by the Hero Section, dynamically updating the highlighted step as users progress.
+- Input field requirements are visually indicated: a red bottom border for unmet requirements and a green bottom border for met requirements.
 
-### `npm test`
+### Button/Nav Area
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The Button/Nav Area contains navigation buttons allowing users to move forward or backward through the form.
+- Hover effects highlight the buttons for enhanced user interactivity.
+- The "Next" button progresses to the next step, and the "Prev" button allows users to navigate back.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To experience the multi-step form:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Start at the initial step indicated in the Hero Section.
+2. Complete the input fields in each part of the Page/Content Area.
+3. Observe the dynamic updates in the Hero Section as you progress.
+4. Utilize the navigation buttons in the Button/Nav Area to move between steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/manlikeHB/multi-step-form.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navigate to the project directory
+cd multi-step-form 
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Running the Application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Install dependencies
+npm install
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start 
+```
