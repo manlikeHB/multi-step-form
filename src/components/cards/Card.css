@@ -10,6 +10,7 @@
 .InputField {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,6 +21,7 @@
   padding: 0.5rem;
   outline: none;
   margin: 0.5rem;
+  min-width: 60%;
 }
 
 .InputField input:focus {
